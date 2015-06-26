@@ -1,0 +1,30 @@
+{
+  "name": "ninjaparade/module-installer",
+  "description": "Module Installer for Core",
+  "type": "composer-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ninjaparade Digital Inc.",
+      "email": "yj@ninjaparade.ca",
+      "homepage": "https://www.github.com/ninjaparade/module-installer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "~5.0",
+    "composer-plugin-api": "1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ninjaparade\\Installer\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    },
+    "class": "Ninjaparade\\Installer\\ModuleInstaller"
+  },
+  "minimum-stability": "dev"
+}
