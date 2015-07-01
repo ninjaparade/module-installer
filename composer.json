@@ -1,7 +1,7 @@
 {
   "name": "ninjaparade/module-installer",
   "description": "Module Installer for Core",
-  "type": "composer-plugin",
+  "type": "composer-installer",
   "license": "MIT",
   "authors": [
     {
