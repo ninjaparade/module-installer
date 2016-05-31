@@ -1,4 +1,6 @@
-<?php namespace Ninjaparade\Installer;
+<?php
+
+namespace Ninjaparade\Installer;
 
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
