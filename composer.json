@@ -24,7 +24,7 @@
     "branch-alias": {
       "dev-master": "1.0-dev"
     },
-    "class": "Ninjaparade\\Installer\\InstallerPlugin"
+    "class": "Ninjaparade\\Installer\\ModuleInstaller"
   },
   "minimum-stability": "dev"
 }
